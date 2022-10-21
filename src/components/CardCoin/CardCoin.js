@@ -36,7 +36,7 @@ function CardCoin({
           className="w-20 cursor-pointer"
           onClick={() => navigate(`/coins/${uuid}`)}
         >
-          <p>{name}</p>
+          <p className="italic hover:not-italic cursor-default">{name}</p>
         </div>
         <div className="w-20">
           <p className="font-bold text-sm">${Number(price).toLocaleString()}</p>

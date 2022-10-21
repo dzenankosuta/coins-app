@@ -50,9 +50,9 @@ const Footer = () => {
               </ul>
             </nav>
 
-            <p className="mx-auto max-w-lg text-xs text-gray-700">
-              Crypto app made by: Denis Mahmutovic, Aldin Halilovic, Hamza
-              Belovodjanin, Imran Zukorlic;
+            <p className="mx-auto max-w-lg text-xs text-gray-700 cursor-default">
+              Crypto app made by: Dženan Košuta, Senad Đerlek, Emir Gegić, Edin
+              Kučević;
               <span className="mt-4 block"> &copy; 2022 Crypto App </span>
             </p>
           </div>

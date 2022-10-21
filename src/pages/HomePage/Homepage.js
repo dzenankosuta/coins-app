@@ -55,18 +55,28 @@ function Homepage() {
       <Search />
 
       <div className="w-10/12">
-        <h1 className="text-xl font-bold">
-          # Top 10 <span className="text-red-500">List</span>{" "}
+        <h1 className="text-xl font-bold cursor-default">
+          Top 10 <span className="text-red-500">List</span>{" "}
         </h1>
         <div className="flex justify-around items-center rounded-md mt-2 mb-2 h-[50px] overflow-hidden">
-          <p className="w-5">Rank</p>
+          <p className="w-5 font-bold italic hover:not-italic cursor-default">
+            Rank
+          </p>
           <div className="w-14"></div>
-          <div className="w-20 mr-3">Name</div>
-          <div className="w-20 pl-2">
-            <p className="font-bold text-sm">Price </p>
+          <div className="w-20 mr-3 font-bold italic hover:not-italic cursor-default">
+            Name
           </div>
-          <div className="w-20 font-bold text-sm pl-2">24hVolume</div>
-          <div className="w-20 font-bold text-sm pl-7">marketCap</div>
+          <div className="w-20 pl-2">
+            <p className="font-bold text-sm italic hover:not-italic cursor-default">
+              Price{" "}
+            </p>
+          </div>
+          <div className="w-20 font-bold text-sm pl-2 italic hover:not-italic cursor-default">
+            24hVolume
+          </div>
+          <div className="w-20 font-bold text-sm pl-7 italic  hover:not-italic cursor-default">
+            marketCap
+          </div>
           <div className="w-32"></div>
           <div className="w-20"></div>
           <div className="w-5"></div>
