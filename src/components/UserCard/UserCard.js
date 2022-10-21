@@ -1,15 +1,15 @@
 import React from "react";
 
-const UserCard = ({ name, place, description, git, gitimage }) => {
+const UserCard = ({ name, place, description, git, image }) => {
   return (
     <div>
-      <div className="max-w-md mx-auto md:max-w-2xl min-w-0 break-words bg-white w-72 mb-6 shadow-lg rounded-xl mt-16 transform transition-all delay-200 hover:translate-y-8 -z-50">
+      <div className="max-w-md mx-auto md:max-w-2xl min-w-0 break-words bg-white w-72 mb-6 shadow-lg rounded-xl mt-16 transform transition-transform delay-100 hover:scale-110 -z-50">
         <div className="px-6">
           <div className="flex flex-wrap justify-center">
             <div className="w-full flex justify-center">
               <div>
                 <img
-                  src={gitimage}
+                  src={image}
                   className="shadow-xl rounded-full align-middle border-none  -m-16 -ml-20 lg:-ml-16 max-w-[150px]"
                   alt="peopl"
                 />
