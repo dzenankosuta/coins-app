@@ -38,6 +38,7 @@ const NavBar = () => {
                 className={({ isActive }) =>
                   isActive ? activeClassName : dissclass
                 }
+                onClick={() => window.scrollTo(0, 0)}
               >
                 Home
               </NavLink>
@@ -48,6 +49,7 @@ const NavBar = () => {
                 className={({ isActive }) =>
                   isActive ? activeClassName : dissclass
                 }
+                onClick={() => window.scrollTo(0, 0)}
               >
                 Coins
               </NavLink>
@@ -58,6 +60,7 @@ const NavBar = () => {
                 className={({ isActive }) =>
                   isActive ? activeClassName : dissclass
                 }
+                onClick={() => window.scrollTo(0, 0)}
               >
                 Exchanges
               </NavLink>
@@ -68,6 +71,7 @@ const NavBar = () => {
                 className={({ isActive }) =>
                   isActive ? activeClassName : dissclass
                 }
+                onClick={() => window.scrollTo(0, 0)}
               >
                 About Us
               </NavLink>
