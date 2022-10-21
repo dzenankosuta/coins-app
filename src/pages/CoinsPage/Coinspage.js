@@ -51,7 +51,6 @@ function Coinspage() {
   const currentPosts = data.slice(firstPostIndex, lastPostIndex);
 
   return (
-
     <div className=" flex flex-col justify-center min-h-[56vh] max-w-[100vw]">
       {currentPosts.length === 0 ? (
         <div class="flex flex-col items-center justify-center max-w-[100vw]">
@@ -75,7 +74,6 @@ function Coinspage() {
           </div>
         </div>
       ) : (
-
         <div className="max-w-[100vw] flex flex-col justify-center items-center">
           <Search />
           <div className="w-10/12">

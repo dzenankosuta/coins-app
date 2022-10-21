@@ -19,7 +19,7 @@ function Favourite() {
             You haven't added any coin to your favourite list, please add some.
           </h1>
           <button
-            onClick={() => navigate("/coins")}
+            onClick={() => [navigate("/coins"), window.scrollTo(0, 0)]}
             className="text-xl font-bold text-center  rounded-xl pb-12"
           >
             Go to coins

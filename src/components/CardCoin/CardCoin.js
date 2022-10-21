@@ -29,12 +29,12 @@ function CardCoin({
           src={iconUrl}
           width={50}
           alt={name}
-          onClick={() => navigate(`/coins/${uuid}`)}
+          onClick={() => [navigate(`/coins/${uuid}`), window.scrollTo(0, 0)]}
           className="cursor-pointer"
         />
         <div
           className="w-20 cursor-pointer"
-          onClick={() => navigate(`/coins/${uuid}`)}
+          onClick={() => [navigate(`/coins/${uuid}`), window.scrollTo(0, 0)]}
         >
           <p className="italic hover:not-italic cursor-default">{name}</p>
         </div>
