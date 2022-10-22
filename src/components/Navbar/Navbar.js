@@ -94,7 +94,7 @@ const NavBar = () => {
             </svg>
           </ul>
           <PersonPinIcon
-            className="cursor-pointer"
+            className="cursor-pointer text-white"
             onClick={() => navigate("/profile")}
           />
         </div>
